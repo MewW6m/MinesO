@@ -1,7 +1,7 @@
 import React from "react";
 import logoImg from "../../components/atoms/logoImg";
-import logoTitle from "../../components/atoms/logoTitle";
-import logoSubTitle from "../../components/atoms/logoSubTitle";
+import logoTitle from "../../components/atoms/title/logoTitle";
+import logoSubTitle from "../../components/atoms/title/logoSubTitle";
 
 class CommonHeader extends React.Component {
     render() {
