@@ -1,7 +1,8 @@
 import React from "react";
-import logoImg from "../../components/atoms/logoImg";
-import logoTitle from "../../components/atoms/title/logoTitle";
-import logoSubTitle from "../../components/atoms/title/logoSubTitle";
+import logoImg from "./logoImg";
+import logoTitle from "./logoTitle";
+import logoSubTitle from "./logoSubTitle";
+
 
 class CommonHeader extends React.Component {
     render() {
@@ -18,9 +19,9 @@ class CommonHeader extends React.Component {
                                     href="../"
                                     className="uk-navbar-item uk-logo uk-grid-column-small"
                                 >
-                                    <logoImg />
-                                    <logoTitle />
-                                    <logoSubTitle />
+                                    { logoImg }
+                                    { logoTitle }
+                                    { logoSubTitle }
                                 </a>
                             </div>
                             <div className="uk-navbar-right">

@@ -16,12 +16,10 @@ export const Img: React.FC<ImgProps> = ({
   src,
   ...props
 }) => {
-  const heightStatement = height ? "height: " + height + ";" : "";
-
   return (
     <img
       src={ src }
-      style={{ heightStatement }}
+      style={{ height: height + "px"}}
       {...props}
     />
   );
