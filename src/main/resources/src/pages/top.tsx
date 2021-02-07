@@ -116,7 +116,7 @@ class TopPage extends React.Component {
                             </div>
                             <div className="uk-padding uk-width-1-3@m">
                                 <i className="fas fa-users fa-5x"></i>
-                                <FaUsers />
+                                <FaUsers  />
                                 <h2>コミュニティ</h2>
                                 <p>このアプリはユーザー同士でつながりを作ることができます。フォロー、タグ、snsで共通の仲間を見つけることができます</p>
                             </div>
