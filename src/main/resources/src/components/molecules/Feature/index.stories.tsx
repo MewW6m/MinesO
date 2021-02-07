@@ -13,7 +13,7 @@ const Template: Story<FeatureProps> = (args) => <Feature {...args} />;
 
 export const Default = Template.bind({});
 Default.args = {
-  Icon: { FaCalendar },
-  title: "タイトル",
-  detail: "詳細"
+  Icon:  FaCalendar ,
+  title: 'タイトル',
+  detail: '詳細詳細詳細詳細詳細詳細詳細詳細詳細詳細詳細詳細詳細詳細詳細詳細詳細詳細詳細詳細詳細詳細詳細詳細詳細詳細'
 };

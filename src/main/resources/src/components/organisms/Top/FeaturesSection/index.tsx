@@ -2,12 +2,12 @@ import React from 'react';
 
 import './index.css';
 import { FaUserShield, FaGlobe, FaUsers } from 'react-icons/fa';
-import {Feature} from "../../molecules/Feature";
+import {Feature} from "../../../molecules/Feature";
 
-export interface FeaturesProps {
+export interface FeaturesSectionProps {
 }
 
-export const Features: React.FC<FeaturesProps> = ({ }) => (
+export const FeaturesSection: React.FC<FeaturesSectionProps> = ({ }) => (
     <section className="uk-section uk-section-small uk-section-default">
       <div className="uk-container uk-container-small">
         <h2 className="uk-text-center">特徴</h2>

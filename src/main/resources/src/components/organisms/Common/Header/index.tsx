@@ -1,7 +1,7 @@
 import React from 'react';
 
 import './index.css';
-import {LogoLabel} from "../../molecules/LogoLabel";
+import {LogoLabel} from "../../../molecules/LogoLabel";
 
 export interface HeaderProps {
 }
