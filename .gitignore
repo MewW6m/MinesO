@@ -154,7 +154,7 @@ build/
 
 docs/docsMng/_book
 docs/docsMng/node_modules
-logo*.png
+#logo*.png
 logo.pptx
 src/main/resources/application-dev.*
 node_modules/
