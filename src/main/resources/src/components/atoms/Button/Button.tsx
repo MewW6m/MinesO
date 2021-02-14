@@ -29,11 +29,11 @@ export const Button: React.FC<ButtonProps> = ({
 }) => {
   return (
     <a
-      className={"uk-button uk-button-default " + styles.ukButtonKai + classNameString}
+      className={"uk-button uk-button-default " + styles.ukButtonKai + " " + classNameString}
       {...props}
     >
       {Icon != null && (
-          <IconContext.Provider value={{ style: { fontSize: '100%', margin: '0 4px' } }} >
+          <IconContext.Provider value={{ style: { fontSize: '120%', margin: '0 4px 1px' } }} >
             <Icon />
           </IconContext.Provider>
       )}

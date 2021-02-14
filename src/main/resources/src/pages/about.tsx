@@ -1,6 +1,7 @@
 import React from "react";
-import {Top} from "../components/templates/Top/Top";
+
 import {CommonHead, CommonHeadProps} from "../components/templates/commons/head";
+import {About} from "../components/templates/About/About";
 
 // MinesO - 利用サービス一覧管理
 
@@ -9,7 +10,7 @@ class TopPage extends React.Component{
         return (
             <>
                 <CommonHead />
-                <Top />
+                <About />
             </>
         );
     }

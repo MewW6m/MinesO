@@ -4,7 +4,7 @@ import { Story, Meta } from '@storybook/react/types-6-0';
 import {HitokotoSection, HitokotoSectionProps} from "./HitokotoSection";
 
 export default {
-  title: 'Components/Organisms/Top/HitokotoSection',
+  title: 'Components/Organisms/About/HitokotoSection',
   component: HitokotoSection
 } as Meta;
 

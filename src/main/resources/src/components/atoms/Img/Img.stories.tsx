@@ -16,6 +16,6 @@ const Template: Story<ImgProps> = (args) => <Img {...args} />;
 
 export const LogoImg = Template.bind({});
 LogoImg.args = {
-  src: "/img/logo.png",
+  src: "./img/logo.png",
   height: 30
 };

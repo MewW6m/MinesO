@@ -1,4 +1,9 @@
 .ukButtonKai {
+  color:rgba(179,179,179,1);
   padding: 3.5px 10px 7px;
   border-radius: 3px;
+}
+
+.ukButtonKaiReversi {
+
 }

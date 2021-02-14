@@ -14,7 +14,6 @@ const Template: Story<TitleProps> = (args) => <Title {...args} />;
 
 export const LogoMain = Template.bind({});
 LogoMain.args = {
-  className: 'poiretone',
   label: 'MinesO ',
 };
 
