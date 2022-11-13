@@ -5,5 +5,5 @@
 ![イメージ画像](/docs/reference/other/image/test.png)
 
 #### ■ ドキュメントはこちら
-→ [https://meww6m.github.io/MinesO/](https://meww6m.github.io/MinesO/)
+→ [https://meww6m.gitbook.io/mineso/](https://meww6m.gitbook.io/mineso/)
 
